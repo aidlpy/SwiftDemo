@@ -114,7 +114,7 @@
 		8408EFE822966112009873AA /* SwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8408EFE922966112009873AA /* AppDelegate.swift */,
+				84A7FE10229E323C0051BDE3 /* Delegate */,
 				8408EFEB22966112009873AA /* ViewController.swift */,
 				8408EFED22966112009873AA /* Main.storyboard */,
 				8408EFF322966113009873AA /* Assets.xcassets */,
@@ -143,13 +143,20 @@
 			path = SwiftDemoUITests;
 			sourceTree = "<group>";
 		};
+		84A7FE10229E323C0051BDE3 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				8408EFE922966112009873AA /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
 		CE379B28FC823FE7D7713D93 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				4F30EF08CCFC61AD27F14B82 /* Pods-SwiftDemo.debug.xcconfig */,
 				07F1E7837ACB09A06BAFAF2B /* Pods-SwiftDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
