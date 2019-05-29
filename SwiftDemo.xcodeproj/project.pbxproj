@@ -15,6 +15,11 @@
 		8408EFF722966113009873AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8408EFF522966113009873AA /* LaunchScreen.storyboard */; };
 		8408F00222966113009873AA /* SwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8408F00122966113009873AA /* SwiftDemoTests.swift */; };
 		8408F00D22966113009873AA /* SwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8408F00C22966113009873AA /* SwiftDemoUITests.swift */; };
+		84A7FE15229E33130051BDE3 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7FE14229E33130051BDE3 /* BaseModel.swift */; };
+		84A7FE17229E33230051BDE3 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7FE16229E33230051BDE3 /* BaseViewModel.swift */; };
+		84A7FE19229E33390051BDE3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7FE18229E33390051BDE3 /* BaseViewController.swift */; };
+		84A7FE1B229E33490051BDE3 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7FE1A229E33490051BDE3 /* BaseView.swift */; };
+		84A7FE1D229E3B2A0051BDE3 /* HttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7FE1C229E3B2A0051BDE3 /* HttpManager.swift */; };
 		E33B1FD1BAC255A430B57730 /* Pods_SwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B3C11D4686EFC057E9CC33 /* Pods_SwiftDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +58,11 @@
 		8408F00822966113009873AA /* SwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8408F00C22966113009873AA /* SwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoUITests.swift; sourceTree = "<group>"; };
 		8408F00E22966113009873AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A7FE14229E33130051BDE3 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		84A7FE16229E33230051BDE3 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		84A7FE18229E33390051BDE3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		84A7FE1A229E33490051BDE3 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		84A7FE1C229E3B2A0051BDE3 /* HttpManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +124,7 @@
 		8408EFE822966112009873AA /* SwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				84A7FE11229E32C40051BDE3 /* Public */,
 				84A7FE10229E323C0051BDE3 /* Delegate */,
 				8408EFEB22966112009873AA /* ViewController.swift */,
 				8408EFED22966112009873AA /* Main.storyboard */,
@@ -149,6 +160,34 @@
 				8408EFE922966112009873AA /* AppDelegate.swift */,
 			);
 			path = Delegate;
+			sourceTree = "<group>";
+		};
+		84A7FE11229E32C40051BDE3 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				84A7FE12229E32D70051BDE3 /* HttpManager */,
+				84A7FE13229E33010051BDE3 /* Base */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		84A7FE12229E32D70051BDE3 /* HttpManager */ = {
+			isa = PBXGroup;
+			children = (
+				84A7FE1C229E3B2A0051BDE3 /* HttpManager.swift */,
+			);
+			path = HttpManager;
+			sourceTree = "<group>";
+		};
+		84A7FE13229E33010051BDE3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				84A7FE1A229E33490051BDE3 /* BaseView.swift */,
+				84A7FE14229E33130051BDE3 /* BaseModel.swift */,
+				84A7FE16229E33230051BDE3 /* BaseViewModel.swift */,
+				84A7FE18229E33390051BDE3 /* BaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		CE379B28FC823FE7D7713D93 /* Pods */ = {
@@ -343,8 +382,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8408EFEC22966112009873AA /* ViewController.swift in Sources */,
+				84A7FE17229E33230051BDE3 /* BaseViewModel.swift in Sources */,
 				8408EFF222966112009873AA /* SwiftDemo.xcdatamodeld in Sources */,
+				84A7FE15229E33130051BDE3 /* BaseModel.swift in Sources */,
+				84A7FE1B229E33490051BDE3 /* BaseView.swift in Sources */,
 				8408EFEA22966112009873AA /* AppDelegate.swift in Sources */,
+				84A7FE19229E33390051BDE3 /* BaseViewController.swift in Sources */,
+				84A7FE1D229E3B2A0051BDE3 /* HttpManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
