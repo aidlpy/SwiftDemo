@@ -165,18 +165,18 @@
 		84A7FE11229E32C40051BDE3 /* Public */ = {
 			isa = PBXGroup;
 			children = (
-				84A7FE12229E32D70051BDE3 /* HttpManager */,
+				84A7FE12229E32D70051BDE3 /* Net */,
 				84A7FE13229E33010051BDE3 /* Base */,
 			);
 			path = Public;
 			sourceTree = "<group>";
 		};
-		84A7FE12229E32D70051BDE3 /* HttpManager */ = {
+		84A7FE12229E32D70051BDE3 /* Net */ = {
 			isa = PBXGroup;
 			children = (
 				84A7FE1C229E3B2A0051BDE3 /* HttpManager.swift */,
 			);
-			path = HttpManager;
+			path = Net;
 			sourceTree = "<group>";
 		};
 		84A7FE13229E33010051BDE3 /* Base */ = {
