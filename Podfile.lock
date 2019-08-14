@@ -1,20 +1,36 @@
 PODS:
   - Alamofire (4.8.2)
+  - cocore (1.2.0)
+  - Codable (0.1.0)
+  - coobjc (1.2.0):
+    - cocore (~> 1.2.0)
+  - Kingfisher (4.10.1)
   - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - Alamofire
+  - Codable
+  - coobjc
+  - Kingfisher
   - SnapKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - cocore
+    - Codable
+    - coobjc
+    - Kingfisher
     - SnapKit
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  cocore: cc9d76229458f286a632d9cecb63bd699bd3529d
+  Codable: f53ad0722d90f77322bd195349895a55c7b6d693
+  coobjc: 090a460e32e90d0e820e64c31cf7b79dece51a7c
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 9803c42b13d7c6b07015f70da0631b482bba181f
+PODFILE CHECKSUM: e46fc37fe14cfeebf05786d78d64c39ff86d71c1
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.2

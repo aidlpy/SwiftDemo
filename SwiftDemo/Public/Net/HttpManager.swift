@@ -9,8 +9,6 @@
 import UIKit
 import Alamofire
 
-
-
 class HttpManager: NSObject {
  
     class func request(_ type:HTTPMethod,_ url:String, p:[String:Any]?=nil, complete:@escaping (_ result:Any)-> Void){

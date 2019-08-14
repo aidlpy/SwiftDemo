@@ -1,9 +1,12 @@
-# Uncomment the next line to define a global platform for your project
+
 platform :ios, '9.0'
 
 def oc_pods
+  pod 'coobjc'
   pod 'Alamofire'
-  pod 'SnapKit' 
+  pod 'SnapKit'
+  pod 'Codable'
+  pod 'Kingfisher'
 end
 
 target 'SwiftDemo' do
